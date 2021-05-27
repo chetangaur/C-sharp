@@ -1,0 +1,9 @@
+* Default values of numeric array and reference type elements are set to be respectively zero and null.
+
+type [ ] < Name_Array > = new < datatype > [size];      // Syntax for array initialization
+int[] intArray1 = new int[5]; 
+int[] intArray2 = new int[5]{1, 2, 3, 4, 5};
+int[] intArray3 = {1, 2, 3, 4, 5};
+
+Array in array(Jagged array)--> int[ ][ ] arr
+* "Params" is a keyword which we use in argument when the number of argument are not certain.
